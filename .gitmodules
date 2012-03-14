@@ -1,0 +1,3 @@
+[submodule "freedombox_puppet"]
+    path = freedombox_puppet
+    url = ssh://git@github.com:stefancocora/freedombox_puppet.git
