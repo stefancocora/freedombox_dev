@@ -1,7 +1,7 @@
 #
 Vagrant::Config.run do |config|
-  config.vm.box = "freedombox_x64"
-  config.vm.box_url = "https://github.com/downloads/stefancocora/freedombox_dev/freedombox_x64.box"
+  config.vm.box = "freedombox_x64-1.0"
+  config.vm.box_url = "https://github.com/downloads/stefancocora/freedombox_dev/freedombox_x64-1.0.box"
   config.vm.customize [ "modifyvm", :id, "--memory", "512", "--cpus", "1"]
 
   config.ssh.timeout    = 300
